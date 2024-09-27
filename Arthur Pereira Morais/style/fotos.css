@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-block: 50px;
+  font-size: 24px;
+}
+
+.image-section {
+  margin-bottom: 30px;
+}
+
+.image-section h3 {
+  text-align: center;
+  font-size: 20px;
+  color: #04aa6d;
+  margin-bottom: 10px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  grid-gap: 15px; /* Espaçamento entre as imagens */
+  justify-items: center;
+}
+
+.image-grid img {
+  width: 100%; /* A largura da imagem será de 100% do contêiner */
+  max-width: 300px; /* Limita o tamanho máximo das imagens */
+  height: auto; /* Mantém a proporção das imagens */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.3s;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.image-wrapper {
+  padding-inline: 30px;
+}
+
+.nav-button {
+  display: inline-block; /* Permite que o botão tenha margens */
+  background-color: #04aa6d; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 10px 25px; /* Espaçamento do botão */
+  border-radius: 5px; /* Bordas arredondadas */
+  text-decoration: none; /* Remove sublinhado */
+  font-size: 18px; /* Tamanho da fonte */
+  text-align: center; /* Centraliza o texto */
+  transition: background-color 0.3s; /* Suaviza a transição de cor */
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.nav-button:hover {
+  background-color: #039d5d; /* Cor do botão ao passar o mouse */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+}
+
+footer h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+footer h4 span {
+  font-weight: bold;
+  color: #04aa6d; /* Cor destacada para o RA */
+}
+
+footer a {
+  color: #04aa6d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

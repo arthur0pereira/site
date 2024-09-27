@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-block: 50px;
+}
+
+button {
+  background-color: #04aa6d; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Sem borda */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border-radius: 4px; /* Cantos arredondados */
+  cursor: pointer; /* Cursor de ponteiro */
+  font-size: 16px; /* Tamanho da fonte do botão */
+}
+
+button:hover {
+  background-color: #039d5d; /* Cor do botão ao passar o mouse */
+}
+
+.nav-button {
+  display: inline-block; /* Permite que o botão tenha margens */
+  background-color: #04aa6d; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 10px 25px; /* Espaçamento do botão */
+  border-radius: 5px; /* Bordas arredondadas */
+  text-decoration: none; /* Remove sublinhado */
+  font-size: 18px; /* Tamanho da fonte */
+  text-align: center; /* Centraliza o texto */
+  transition: background-color 0.3s; /* Suaviza a transição de cor */
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.nav-button:hover {
+  background-color: #039d5d; /* Cor do botão ao passar o mouse */
+}
+
+.contact-container {
+  max-width: 600px; /* Largura máxima do formulário */
+  margin: auto; /* Centraliza o formulário na página */
+  padding: 20px;
+  background-color: white; /* Fundo branco */
+  border-radius: 8px; /* Cantos arredondados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; /* Espaço abaixo dos rótulos */
+  font-weight: bold; /* Texto em negrito */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 97%; /* Largura total do campo */
+  padding: 10px; /* Espaçamento interno */
+  margin-bottom: 15px; /* Espaçamento abaixo dos campos */
+  border: 1px solid #ccc; /* Borda padrão */
+  border-radius: 4px; /* Cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin-top: 150px;
+  font-size: 13px;
+}
+
+.contact-info div {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+}
+
+footer h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+footer h4 span {
+  font-weight: bold;
+  color: #04aa6d; /* Cor destacada para o RA */
+}
+
+footer a {
+  color: #04aa6d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
